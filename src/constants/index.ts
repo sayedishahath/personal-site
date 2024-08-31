@@ -32,6 +32,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  lms,
+  ct,
+  cp,
+  pd,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -125,63 +129,63 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Trainee(MERN Stack)",
+    companyName: "DCT Academy",
+    icon: "",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2023 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js,Node.js,Express.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Full stack Web Developer (Intern)",
+    companyName: "Skillharvest",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer",
+    companyName: "Tekzai",
+    icon: "",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   companyName: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Ishahath proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -189,7 +193,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Ishahath does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +201,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Ishahath optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -207,7 +211,7 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "LMS portal",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -224,11 +228,11 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: lms,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Custom Threads",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -245,11 +249,11 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ct,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Price calculator",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -266,7 +270,28 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cp,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Project Dashboard",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pd,
     sourceCodeLink: "https://github.com/",
   },
 ];

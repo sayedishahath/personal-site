@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import lms from "./LMS.png";
+import ct from "./CT_!.png";
+import pd from "./Project_Dash.png";
+import cp from "./CP.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  lms,
+  ct,
+  pd,
+  cp,
 };
