@@ -29,6 +29,8 @@ import {
   ct,
   cp,
   pd,
+  dct,
+  tekzai
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -124,7 +126,7 @@ const experiences: TExperience[] = [
   {
     title: "Software Engineer Trainee(MERN Stack)",
     companyName: "DCT Academy",
-    icon: "",
+    icon: dct,
     iconBg: "#383E56",
     date: "October 2023 - April 2024",
     points: [
@@ -135,24 +137,11 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Full stack Web Developer (Intern)",
-    companyName: "Skillharvest",
-    icon: "",
-    iconBg: "#E6DEDD",
-    date: "April 2024 - July 2024",
-    points: [
-      "Developing and maintaining web applications.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
+    title: "Full Stack Software Developer",
     companyName: "Tekzai",
-    icon: "",
+    icon: tekzai,
     iconBg: "#383E56",
-    date: "August 2024 - Present",
+    date: "April 2024 - Present",
     points: [
       "Developing and maintaining web applications.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -206,18 +195,18 @@ const projects: TProject[] = [
   {
     name: "LMS portal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An LMS portal streamlines education by delivering courses, video lectures, and quizzes while tracking student progress. It offers user-friendly tools for interactive learning and performance analytics.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
@@ -227,7 +216,7 @@ const projects: TProject[] = [
   {
     name: "Custom Threads",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Custom Threads is a user-friendly t-shirt printing app that lets users design personalized apparel. Choose styles, colors, and patterns, add text or graphics, and preview your design before ordering!",
     tags: [
       {
         name: "react",
@@ -248,18 +237,18 @@ const projects: TProject[] = [
   {
     name: "Price calculator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a dynamic pricing calculator app for an LMS portal, enabling the marketing team to generate customized quotes based on user count, storage needs, and add-on features with export options.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootsrtap css",
         color: "pink-text-gradient",
       },
     ],
@@ -269,14 +258,14 @@ const projects: TProject[] = [
   {
     name: "Project Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a project dashboard app with task tracking, Gantt charts, real-time updates, and role-based access, enabling efficient project management, analytics, and seamless team collaboration.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {

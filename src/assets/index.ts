@@ -34,6 +34,10 @@ import ct from "./CT_!.png";
 import pd from "./Project_Dash.png";
 import cp from "./CP.png";
 
+
+import dct from "./dct.jpeg";
+import skillharvest from "./skillharvest.jpeg"
+import tekzai from "./TEKZAI.png"
 export {
   logo,
   backend,
@@ -67,4 +71,7 @@ export {
   ct,
   pd,
   cp,
+  dct,
+  skillharvest,
+  tekzai
 };
