@@ -88,6 +88,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+    <>
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         glareEnable
@@ -97,7 +98,12 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         glareColor="#aaa6c3"
       >
         <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
-          <div className="relative h-[230px] w-full">
+          <div
+           onClick={() => {
+            setIsOpen(true);
+            console.log("clicked", isOpen);
+          }} // Open the modal 
+          className="relative h-[230px] w-full cursor-pointer">
             <img
               src={image}
               alt={name}
@@ -105,10 +111,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
               <div
-                onClick={() => {
-                  setIsOpen(true);
-                  console.log("clicked", isOpen);
-                }} // Open the modal
+               
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
               >
                 <img
@@ -132,19 +135,23 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
           </div>
         </div>
       </Tilt>
-      {isOpen &&(
-        <Modal
-        isOpen={isOpen}
-        onClose={() => setIsOpen(false)}
-        videoUrl={demoVideoUrl}
-      />
-      )}
+  
       {/* <Modal
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         videoUrl={demoVideoUrl}
       /> */}
     </motion.div>
+    <div>
+          {isOpen &&(
+          <Modal
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
+          videoUrl={demoVideoUrl}
+        />
+        )}
+    </div>
+    </>
   );
 };
 const Works = () => {

@@ -212,7 +212,7 @@ const projects: TProject[] = [
     ],
     image: lms,
     sourceCodeLink: "https://github.com/",
-    demoVideoUrl: "https://youtu.be/jc285TeGKAE?si=qo9_aK-E--yc8kzY",
+    demoVideoUrl: "https://www.youtube.com/embed/veHyLUXmEiM",
   },
   {
     name: "Custom Threads",
@@ -234,7 +234,7 @@ const projects: TProject[] = [
     ],
     image: ct,
     sourceCodeLink: "https://github.com/",
-    demoVideoUrl: "https://youtu.be/jc285TeGKAE?si=qo9_aK-E--yc8kzY",
+    demoVideoUrl: "https://www.youtube.com/embed/veHyLUXmEiM",
   },
   {
     name: "Price calculator",
@@ -256,7 +256,7 @@ const projects: TProject[] = [
     ],
     image: cp,
     sourceCodeLink: "https://github.com/",
-    demoVideoUrl: "https://youtu.be/jc285TeGKAE?si=qo9_aK-E--yc8kzY",
+    demoVideoUrl: "https://www.youtube.com/embed/veHyLUXmEiM",
   },
   {
     name: "Project Dashboard",
@@ -278,7 +278,7 @@ const projects: TProject[] = [
     ],
     image: pd,
     sourceCodeLink: "https://github.com/",
-    demoVideoUrl: "https://youtu.be/jc285TeGKAE?si=qo9_aK-E--yc8kzY",
+    demoVideoUrl: "https://www.youtube.com/embed/veHyLUXmEiM",
   },
 ];
 
