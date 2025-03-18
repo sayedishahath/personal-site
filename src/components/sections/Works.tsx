@@ -82,7 +82,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   description,
   tags,
   image,
-  sourceCodeLink,
+  // sourceCodeLink,
   demoVideoUrl, // Add this prop
 }) => {
   const [isOpen, setIsOpen] = useState(false);
